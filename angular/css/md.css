@@ -10,7 +10,7 @@ html,body{
 ._left{
 	height: 100%;
 	background: #fff;
-	border: 1px solid #aaa;
+	border: 1px solid #f2f2f2;
 	box-sizing: border-box;
 	padding: 0;
 }
@@ -18,6 +18,8 @@ html,body{
 	height: 100%;
 	background: #f2f2f2;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 /*搜索*/
 ._search{
@@ -108,5 +110,21 @@ html,body{
 	font-size: 20px;
 	padding: 0 30px;
 	box-sizing: border-box;
+	background: #f2f2f2;
+}
+/*内容*/
+._con{
+	width: 100%;
+	flex: 1;
+	background: #fff;
+	padding: 20px 40px;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	box-sizing: border-box;
+}
+._con textarea{
+	width: 100%;
+	height: 100%;
+	border: none;
 	background: #f2f2f2;
 }

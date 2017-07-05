@@ -23,7 +23,7 @@
 						<div class="_iscroller">
 							<ul class="_lists">
 								<li ng-repeat="$data in data |filter:{name:search}">
-									<input type="text" ng-model="$data.name" ng-click="ti($index)" ng-blur="edititle($index)" />
+									<input type="text" ng-model="$data.name" ng-focus="focus($data.id)" ng-blur="blur()" />
 									<button type="button" ng-click="del($index)" class="btn btn-danger">删除</button>
 								</li>
 							</ul>
@@ -36,7 +36,10 @@
 				</section>
 				<section class="_right col-lg-9 col-md-8 col-sm-7 col-xs-7">
 					<div class="_title">
-						<input type="text" ng-model="title"  />
+						<input type="text" ng-model="current.name" ng-blur="blur()"  />
+					</div>
+					<div class="_con">
+						<textarea ng-model="current.con" ng-blur="blur()" ></textarea>
 					</div>
 				</section>
 			</div>
