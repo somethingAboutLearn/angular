@@ -25,9 +25,11 @@ angular.module('myapp',[])
 		//title
 		$scope.ti=function($index){
 			$scope.title=this.data[$index].name;
+			localStorage.message=angular.toJson($scope.data);
 		}
 		//
 		$scope.edititle=function($index){
 			$scope.title=this.data[$index].name;
+			localStorage.message=angular.toJson($scope.data);
 		}
 	})
