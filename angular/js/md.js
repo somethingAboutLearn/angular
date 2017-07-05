@@ -18,6 +18,7 @@ angular.module('myapp',[])
 			for(var $i=0;$i<$scope.data.length;$i++){
 				if($index==$i){
 					$scope.data.splice($i,1);
+					localStorage.message=angular.toJson($scope.data);
 				}
 			}
 		}
