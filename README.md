@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/university-notes/angular/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/university-notes/angular/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# angular
+  ## 基于 angular 框架的笔记本 demo
+    * url： https://university-notes.github.io/angular/angular/md.html
+    * ng指令
+      * ng-app 定义 angular 的使用范围
+      * ng-controller 定义 controller （控制器）的作用域
+      * ng-model 绑定数据
+      * ng-repeat 重复循环
+      * ng-blur 失去焦点事件
+      *$scope 用来挂载数据和方法
+    * localStorage 本地存储，需要手动清除
+    * JSON.parse() 将一个 JSON 字符串转换为对象
+      '
+        var str = {"name":"jialei", "sex":"man"}
+        str_pretty1 = JSON.stringify(str)
+        document.write( "只有一个参数情况：" );
+        document.write( "<br>" );
+        document.write("<pre>" + str_pretty1 + "</pre>" );
+        document.write( "<br>" );
+        str_pretty2 = JSON.stringify(str, null, 4) //使用四个空格缩进
+        document.write( "使用参数情况：" );
+        document.write( "<br>" );
+        document.write("<pre>" + str_pretty2 + "</pre>" ); // pre 用于格式化输出
+      '
+    * JSON.stringify() 将 javascript 值转换为 JSON 字符串
+  ## 基于 angular 框架的表单 demo
+    * url： https://university-notes.github.io/angular/angular/buycar.html
