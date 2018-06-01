@@ -64,4 +64,4 @@
 			
 
 	* 基于 angular 框架的表单操作 demo
-		* url： https://university-notes.github.io/angular/angular/buycar.html
+		* url： https://somethingaboutlearn.github.io/angular/buycar.html
