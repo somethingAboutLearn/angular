@@ -1,6 +1,6 @@
 # angular
   * 基于 angular 框架的笔记本 demo
-	  * url： https://university-notes.github.io/angular/angular/md.html
+	  * url： https://somethingaboutlearn.github.io/angular/
 	  * ng指令
 		  *  ng-app 定义 angular 的使用范围
 		  *  ng-controller 定义 controller （控制器）的作用域
